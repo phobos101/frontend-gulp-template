@@ -1,10 +1,11 @@
 # Front-End Gulp Template
-Full front-end template that uses gulp for pre and post-processors.
+Full front-end template that uses gulp for pre and post-processing, minification, conversion and compression.
 
 ## Installation
 1. Clone the repo `git clone git@github.com:phobos101/frontend-gulp-template.git`
 2. Install the dependencies `npm install`
 3. Start building in the `/source` dir
+4. Once your site is built, test with `gulp` to run them all, or `gulp <task>`
 
 ## Switch between development build and production build
 This template will build the site differently depending if you want to have a dev build or deploy to production.
@@ -36,7 +37,7 @@ Ensure you update your node to a recent version.
 
   * Prefixes images with the correct relative file path
 
-  * Automatically adds vendor prefixes such as moz
+  * Automatically adds vendor prefixes such as -moz
 
   * Packs multiple media queries with the same
    dimensions into a single query
@@ -46,13 +47,13 @@ Ensure you update your node to a recent version.
   * Minifies the resultant .css files in production build only
 
 
-* ### Images
+* ### **Images**
   * Compresses all images faster speeds
 
   * Any image placed in `source/images/inline` will be converted to Data URIs meaning that the images never need to be requested.
 
-* ### JavaScript
-  * Files are simply moved to a Javascript dir in a development build
+* ### **JavaScript**
+  * Files are simply moved to a 'js' directory in a development build
 
   * When using a production build, the following will occur:
     * Scripts are loaded in the correct order via gulp-deporder. In your ,js files specify the dependencies at the top with `\\ requires: angular/app.js` (example)
@@ -62,6 +63,9 @@ Ensure you update your node to a recent version.
     * All debug information is stripped from the file
 
     * The file is then minified
+
+* ### **Clean**
+  * Running `gulp clean` will wipe your generated build directory so you can run `gulp` again fresh.
 
 ## Watch
 The following files and directories are watched for changes and will auto reload your page:
