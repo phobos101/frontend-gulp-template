@@ -2,7 +2,7 @@
 Full front-end template that uses gulp for pre and post-processing, minification, conversion and compression.
 
 ## Installation
-1. Clone the repo `git clone git@github.com:phobos101/frontend-gulp-template.git`
+1. Fork and clone the repo `git clone <your-forked-git-URI>`
 2. Install the dependencies `npm install`
 3. Start building in the `/source` dir
 4. Once your site is built, test with `gulp` to run them all, or `gulp <task>`
