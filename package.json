@@ -1,0 +1,40 @@
+{
+  "name": "frontend-gulp-template",
+  "version": "1.0.0",
+  "description": "Full frontend template with gulp tasks for HTML, SASS and JS",
+  "main": "build/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phobos101/frontend-gulp-template.git"
+  },
+  "keywords": [
+    "phobos101",
+    "template",
+    "gulp",
+    "frontend",
+    "automation"
+  ],
+  "author": "Rob Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phobos101/frontend-gulp-template/issues"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-deporder": "^1.1.0",
+    "gulp-htmlclean": "^2.7.6",
+    "gulp-imacss": "^1.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-newer": "^1.1.0",
+    "gulp-pleeease": "^2.0.2",
+    "gulp-preprocess": "^2.0.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-uglify": "^1.5.1"
+  }
+}
