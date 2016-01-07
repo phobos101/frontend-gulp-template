@@ -26,7 +26,8 @@ Ensure you update your node to a recent version.
       <h1>Content goes here</h1>
     <main>
 
-    <!-- @include partials/_footer.html -->```
+    <!-- @include partials/_footer.html -->
+    ```
 
   * Minifies HTML when in production build only
 
